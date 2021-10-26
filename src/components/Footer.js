@@ -6,10 +6,10 @@ export default class Footer extends Component {
       <footer className="mt-12">
         <div className="md:flex p-8   font-semibold text-md justify-center items-center">
           <ul className="mt-4 md:w-1/2">
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
+            <li className="footer-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 inline mr-4"
+                className="icon"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -17,10 +17,10 @@ export default class Footer extends Component {
               </svg>
               Home
             </li>
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
+            <li className="footer-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 inline mr-4"
+                className="icon"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -33,10 +33,10 @@ export default class Footer extends Component {
               </svg>
               About Us
             </li>
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
+            <li className="footer-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-4 inline"
+                className="icon"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -50,15 +50,9 @@ export default class Footer extends Component {
             </li>
           </ul>
           <ul className="mt-4 md:w-1/2">
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
-              Africa
-            </li>
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
-              America
-            </li>
-            <li className="hover:bg-blue-400 md:w-1/3 px-3 py-3 rounded">
-              Europe
-            </li>
+            <li className="footer-link">Africa</li>
+            <li className="footer-link">America</li>
+            <li className="footer-link">Europe</li>
           </ul>
         </div>
         <h1 className="text-center p-4 font-semibold border-t">

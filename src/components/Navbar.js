@@ -71,15 +71,9 @@ export default class Navbar extends Component {
         <div className={`mt-4 ${!isOpen ? "hidden" : ""}`}>
           <div className=" ">
             <ul className="">
-              <li className="py-2 bg-blue-400 cursor-pointer rounded text-center hover:bg-blue-400 font-semibold  text-md">
-                Home
-              </li>
-              <li className="py-2 text-center cursor-pointer rounded font-semibold hover:bg-blue-400  text-md">
-                About Us
-              </li>
-              <li className="py-2 text-center cursor-pointer rounded font-semibold hover:bg-blue-400 text-md">
-                Contact Us
-              </li>
+              <li className="mobile-nav-link bg-blue-400">Home</li>
+              <li className="mobile-nav-link">About Us</li>
+              <li className="mobile-nav-link">Contact Us</li>
             </ul>
           </div>
           <div className="mt-4">
@@ -98,15 +92,11 @@ export default class Navbar extends Component {
           <div className="w-1/2 flex justify-between items-center">
             <div className=" w-4/5 border border-black shadow-lg">
               <ul className="flex text-center justify-evenly items-center">
-                <li className="py-2 w-1/3 bg-blue-400 hover:bg-blue-400 cursor-pointer text-center font-semibold border-r border-black text-md">
+                <li className="nav-link bg-blue-400  border-r border-black">
                   Home
                 </li>
-                <li className="py-2 w-1/3 text-center hover:bg-blue-400 cursor-pointer font-semibold border-r border-black text-md">
-                  About Us
-                </li>
-                <li className="py-2 w-1/3 text-center hover:bg-blue-400 cursor-pointer font-semibold text-md">
-                  Contact Us
-                </li>
+                <li className="nav-link border-r border-black">About Us</li>
+                <li className="nav-link">Contact Us</li>
               </ul>
             </div>
             <div>
